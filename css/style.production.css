@@ -95,7 +95,7 @@ body{
 .my-photo{
   width: 100px;
   border-radius: 15%;
-  text-align: center;
+  justify-content: center;
   clear: both;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -130,6 +130,7 @@ transition-property:width;
   transition-property: width;
   color: white;
   opacity: 0.9s;
+  justify-content: center;
 }
 .about-button:focus{
  font-family: inherit;
