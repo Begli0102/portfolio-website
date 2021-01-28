@@ -9,9 +9,7 @@ Secondary Color (Orange): #e0b354;
 font-family: 'Roboto', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
  */
- *{
- box-sizing: border-box;
-}
+ * {box-sizing: border-box;}
 :root {
   --primary-color: #eeffcc;
   --secondary-color: #906d00;
@@ -307,7 +305,7 @@ border-bottom: 3px solid;
     grid-column: auto / auto;
     grid-row: auto / auto;
   }
-  h1 {
+  .h1 {
     font-size: 20px;
   }
 }
