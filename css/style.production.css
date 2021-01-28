@@ -1,28 +1,19 @@
 /*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
-
-/*
 Colors used
 
 Text Color (Dark Gray): #2b2b2b;
 Primary Color (Purple): #357b70;
 Secondary Color (Orange): #e0b354;
 (blue):#0000ff
-font-family: 'Roboto', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Comfortaa', cursive;
  */
  *{
  -webkit-box-sizing: border-box;
          box-sizing: border-box;
 }
 body{
-  background-color:#eeffcc;
-  font-family: 'Oswald', sans-serif;
+  background-color:#f2f2f2;
+  font-family: 'Comfortaa', cursive;
   font-weight: 400;
   font-size:22px;
 }
@@ -104,6 +95,7 @@ body{
 
 }
 .about-button{
+  font-family: inherit;
   width: 200px;
   margin: 10px;
   padding: 10px;
@@ -129,7 +121,7 @@ transition-property:width;
   -o-transition-property: width;
   transition-property: width;
   color: white;
-  opacity: 0.9s;
+  opacity:0.9;
   justify-content: center;
 }
 .about-button:focus{
@@ -144,7 +136,7 @@ transition-property:width;
   -o-transition-property: width;
   transition-property: width;
   color: white;
-  opacity: 0.9s;
+  opacity:0.9;
 }
 
 /* about page*/
@@ -278,14 +270,14 @@ transition-property:width;
   font-size: 22px;
  }
    h1{
-   color:#906d00;
+   color:#8c6a00;
    font-style:normal;
    font-family: 'Roboto', sans-serif;
    margin:20px;
   font-size: 22px;
  }
 a {
-  color: #906d00;
+  color: #8c6a00;
   margin-right: 10px;
   margin-left: 20px;
   font-family: bold, serif;
@@ -298,7 +290,7 @@ a:visited {
 a:hover {
   /* No underlining when hovering over a link */
   text-decoration: none;
-  color: #486540;
+  color: white;
 }
 
 a:active {
@@ -316,10 +308,10 @@ a:hover, a:focus {
     display: flex;
     margin:0 auto;
   /* takes the font from the outer container */
-  font-family: inherit;
+font-family: inherit;
   /* style button */
   background-color:#c5f776;
-  color: #906d00;
+  color: #836300;
   text-decoration: none;
   padding: 10px;
   border-radius: 5px;
@@ -338,6 +330,7 @@ a:hover, a:focus {
 }
 
 .grid-container{
+  font-family: 'Comfortaa', cursive;
   display: -ms-grid;
   display: grid;
   /*grid-auto-rows: minmax(150px,auto) ;*/
@@ -359,6 +352,7 @@ border-bottom: 3px solid;
   text-align: center;
   margin:10px;
   border-radius: 10px;
+  font-family: 'Comfortaa', cursive;
 }
 .grid-item-2,
 .grid-item-3,
@@ -368,6 +362,7 @@ border-bottom: 3px solid;
   border-top: 1px solid;
   padding: 10px;
   border-radius: 10px;
+  font-family: 'Comfortaa', cursive;
 }
 
   @media all and (max-width: 500px) {
