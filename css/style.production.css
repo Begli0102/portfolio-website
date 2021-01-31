@@ -141,6 +141,8 @@ transition-property:width;
   text-decoration: none;
   margin:20px 20px;
   list-style-type: none;
+  border: 2px solid #407f75;
+  border-width: auto;
 }
 .information li{
   list-style-type: none;
@@ -250,9 +252,9 @@ transition-property:width;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  text-align: center;
   font-size: 10px;
-
+height:100%;
+text-align: center;
 }
 .media{
   margin:0px;
@@ -281,7 +283,7 @@ a:hover {
 
 a:active {
   /* selected link */
-  color: #eeffcc;
+  color: #906d00;
 }
 a:hover, a:focus {
   /* No underlining when hovering over a link */
