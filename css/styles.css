@@ -62,8 +62,8 @@ body{
 .profile-logo:hover
 .profile-logo:focus
 {
-  opacity: 0.9s;
-  transition: 0,9s;
+  opacity: 0.9;
+  transition: 0.9s;
 }
 .container-about {
   list-style-type: none;
