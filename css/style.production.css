@@ -9,7 +9,7 @@ font-family: 'Comfortaa', cursive;
  */
  *{
  -webkit-box-sizing: border-box;
-         box-sizing: border-box;
+ box-sizing: border-box;
 }
 body{
   font-family: 'Comfortaa', cursive;
@@ -155,6 +155,7 @@ transition-property:width;
   margin: 20px;
     text-align: center;
    display: inline-block;
+   border:1px solid;
 }
 .berlin-illustration {
   position: relative;
